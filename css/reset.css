@@ -1,0 +1,6 @@
+/*reset browser css*/
+*{
+    padding: 0;
+    box-sizing:content-box ;
+    margin: 0;
+}
