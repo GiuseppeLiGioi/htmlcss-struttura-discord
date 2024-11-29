@@ -20,6 +20,7 @@ body{
 header{
     height: 80px;
     background-color: var(--header);
+    border: 1px solid red; 
    
 }
 
@@ -28,16 +29,45 @@ header{
     background-color: red;
     flex-direction: row;
     margin: 0 30px;
-    justify-content: space-between;
+    justify-content: space-between; 
+     
+}
+
+
+.container1-flex{
+    display: flex;
+    background-color: #255EE9;
+    height: 200px;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+     
+    
     
 
-    
-    
+}
 
+.green{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-basis: 10%;
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: yellow;
+    
 
    
 }
 
+.container2-flex{
+    display: flex;
+    
+}
+
+.botton{
+border: 1px solid black;
+background-color: yellow;
+}
 /*footer{
     height: 250px;
     background-color: var(--footer);
